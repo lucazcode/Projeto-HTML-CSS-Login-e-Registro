@@ -1,0 +1,146 @@
+/* GERAL */
+
+:root {
+  font-size: 62.5%;
+  --cor-primaria: rgb(150, 123, 182);
+  --cor-secundaria: whitesmoke;
+  --cor-detalhes: #666666;
+}
+
+html {
+  font-family: Roboto;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  font-weight: 300;
+  margin: 0;
+  background-color: var(--cor-primaria);
+}
+
+/* FORM E TEXTOS */
+
+.formulario {
+  width: 90%;
+  min-width: 20rem;
+  max-width: 50rem;
+  padding: 5rem 4rem 4rem;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, .1) 1rem, var(--cor-secundaria) 1rem);
+}
+
+.formulario_fieldset {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.titulo {
+  color: var(--cor-primaria);
+  font-size: 4rem;
+  margin-bottom: 4rem;
+  padding: 0;
+}
+
+label {
+  margin-bottom: .6rem;
+}
+
+input {
+  font-size: 1.6rem;
+  color: var(--cor-primaria);
+  padding: 1rem 0;
+  background-color: var(--cor-secundaria);
+  border: 1px solid transparent;
+  border-bottom: 1px solid var(--cor-detalhes);
+  margin-bottom: 4rem;
+  transition: .3s;
+}
+
+input::placeholder {
+  color: transparent;
+}
+
+input:focus {
+  outline: none;
+  padding: 1rem;
+  border-color: var(--cor-detalhes);
+}
+
+input:focus::placeholder {
+  color: #6666664b;
+}
+
+.label-css {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  color: var(--cor-detalhes);
+}
+
+/* BOTÕES */
+
+.btn {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.8rem;
+  padding: 1.5rem 2rem;
+  border: 0;
+  color: var(--cor-secundaria);
+  transition: .3s;
+}
+
+.esquecer-senha, .to-login {
+  color: var(--cor-detalhes);
+  margin-left: auto;
+}
+
+.to-login a {
+  color: var(--cor-detalhes);
+  transition: .3s;
+}
+
+.esquecer-senha {
+  color: var(--cor-detalhes);
+  transition: .3s;
+}
+
+.clicaveis {
+  display: flex;
+  align-items: center;
+  height: 5.1rem;
+}
+
+.btn-submit {
+  background-color: var(--cor-primaria);
+  cursor: pointer;
+  border-radius: .5rem;
+}
+
+.btn-2 {
+  background-color: transparent;
+  color: var(--cor-primaria);
+  text-decoration: none;
+  padding: 0;
+  margin-left: 2rem;
+}
+
+.btn-submit:hover, .btn-2:hover {
+  margin-bottom: 1rem;
+}
+
+.esquecer-senha, .to-login a {
+  text-decoration: none;
+}
+
+.esquecer-senha:hover, .to-login a:hover {
+  text-decoration: underline;
+  color: var(--cor-primaria);
+}
+
+/* =)! */
