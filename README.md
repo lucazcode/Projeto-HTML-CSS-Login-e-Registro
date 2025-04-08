@@ -9,10 +9,5 @@
 
 ## Demonstração
 
-**->** Você pode visitar a página aqui: https://logineregistrolucazcode.netlify.app
-
-
-## Autores
-
-**->** [@lucazcode](https://www.github.com/lucazcode)
+**->** Você pode visitar a página aqui: [logineregistrolucazcode.netlify.app](https://logineregistrolucazcode.netlify.app)
 
